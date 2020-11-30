@@ -1,0 +1,25 @@
+.header-container {
+    color: rgb(139, 139, 139);
+    background: rgb(13, 70, 97);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    box-shadow: 5px 2px 16px 3px rbg(0 0 0 / 12%);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container > input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
