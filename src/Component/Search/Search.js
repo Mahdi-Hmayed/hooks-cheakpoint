@@ -1,6 +1,6 @@
 import React from "react";
 import StarRating from "../StarRating";
-import "./Search.css";
+import "./search.css";
 
 const Search = ({
   handleSearch,

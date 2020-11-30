@@ -16,7 +16,7 @@ export const moviesData = [
     },
     {
         id: Math.random(),
-        image: "https://pics.filmaffinity.com/Spartacus_Vengeance_TV_Series-594127465-large.jpg",
+        image: "https://occ-0-92-1722.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcshaYnt1JLU5hhqE_nBUa6UKa-jegbNf29AJgdFUe7eln-QWmljLhGywYbC3XX918ICl1KXsM9cs3pr073tkTK_6ozr.jpg?r=0f5",
         name: "Spartacus",
         date: "2010",
         rating: 3,
