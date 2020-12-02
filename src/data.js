@@ -6,6 +6,8 @@ export const moviesData = [
         name: "Prison Break",
         date: "2005",
         rating: 4,
+        trailer:"https://www.youtube.com/embed/AL9zLctDJaU",
+        description: "Prison Break is an American television series that premiered on the Fox Network on August 29, 2005. The story revolves around a man who was sentenced to death for a crime he did not commit and his brother's elaborate plan to help him escape his death sentence.",
     },
     {
         id: Math.random(),
@@ -13,6 +15,8 @@ export const moviesData = [
         name: "Peaky Blinders",
         date: "2013",
         rating: 5,
+        trailer:"https://www.youtube.com/embed/oVzVdvGIC7U",
+        description:"Peaky Blinders is a gangster family of Irish and Roma origin epic set in Birmingham, England, in 1919, several months after the end of the First World War in November 1918. The story centres on the Peaky Blinders gang and their ambitious and highly cunning boss Tommy Shelby (Cillian Murphy).",
     },
     {
         id: Math.random(),
@@ -20,6 +24,8 @@ export const moviesData = [
         name: "Spartacus",
         date: "2010",
         rating: 3,
+        trailer:"https://www.youtube.com/embed/WSWtCLBrrAk",
+        description:"Spartacus was a Thracian gladiator who led a slave revolt with an army numbering in the tens of thousands. He defeated Roman forces over half a dozen times, marching his people up and down the Italian peninsula until he was killed in battle in April 71 B.C",
     },
     {
         id: Math.random(),
@@ -27,6 +33,8 @@ export const moviesData = [
         name: "Game of Thrones",
         date: "2011",
         rating: 5,
+        trailer:"https://www.youtube.com/embed/rlR4PJn8b8I",
+        description:"Game of Thrones is an HBO series that tells the story of a medieval country's civil war. The series, which premiered in April 2011, is set on the fictional continents of Westeros and Essos in a world where seasons stretch on for years.",
     },
     {
         id: Math.random(),
@@ -34,5 +42,7 @@ export const moviesData = [
         name: "The Godfather",
         date: "1972",
         rating: 4,
+        trailer:"https://www.youtube.com/embed/sY1S34973zA",
+        description:"The story, spanning from 1945 to 1955, chronicles the Corleone family under patriarch Vito Corleone (Brando), focusing on the transformation of one of his sons, Michael Corleone (Pacino), from reluctant family outsider to ruthless mafia boss",
     },
 ];

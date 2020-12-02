@@ -4,7 +4,8 @@ import MovieList from "./Component/MovieList/MovieList";
 import AddMovie from "./Component/AddMovie";
 import { moviesData } from "./data";
 import "./App.css";
-
+import { Route ,Switch } from 'react-router-dom'
+import Description from "./Component/Description/Description"
 
 const App = () => {
   const [movies, setMovies] = useState(moviesData);
@@ -19,6 +20,7 @@ const App = () => {
   
   const addMovie = (newMovie) => setMovies([...movies, newMovie]);
   return (
+    
     <div>
       <Search
         searchValue={searchValue}
@@ -26,7 +28,11 @@ const App = () => {
         searchRate={searchRate}
         handleSearchRate={handleSearchRate}
       />
-      <MovieList
+      
+      <AddMovie handleAdd={addMovie} />
+      <Switch>
+           <Route exact path="/"> 
+           <MovieList
         movieList={movies.filter(
           (movie) =>
             movie.name
@@ -35,8 +41,13 @@ const App = () => {
             movie.rating >= searchRate
         )}
       />
-      <AddMovie handleAdd={addMovie} />
+            </Route>                                                      
+            <Route exact path="/trailer/:name" render ={(props) => <Description res={movies}  {...props}   />}   />
+            </Switch>
+
+
     </div>
+    
   );
 };
 
